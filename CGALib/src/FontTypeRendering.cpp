@@ -114,7 +114,7 @@ void FontTypeRendering::Initialize() {
  * @param x Coordenada en X.
  * @param y Coordenada en Y.
  */
-void FontTypeRendering::render(const std::string &str, float x, float y) {
+void FontTypeRendering::render(const std::string &str, float x, float y, int size, float r, float g, float b) {
 	// Se activa la unidad de textura.
 	glActiveTexture (GL_TEXTURE0);
 	// Se enalza hacia el tipo de textura.
